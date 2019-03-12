@@ -6,7 +6,7 @@ class file_not_found : public std::logic_error
 {
 public:
     file_not_found(std::string s) : std::logic_error(s) {}
-}
+};
 
 std::vector<std::string> getItemsFromFile(std::string fileName)
 {
